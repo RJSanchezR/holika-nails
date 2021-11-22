@@ -216,8 +216,10 @@ main section img {
 }
 
 .contact a {
-    grid-column: 9/10;
+    grid-column: 9/11;
     grid-row: 3/4;
+    align-self: start;
+    justify-self: center;
 }
 
 .msg {
