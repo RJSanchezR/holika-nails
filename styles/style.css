@@ -526,6 +526,11 @@ footer .social a:hover {
         text-align: center;
     }
 
+    .card-img, .stylist-name{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
     .column {
         flex: 100%;
         max-width: 100%;
@@ -554,8 +559,10 @@ footer .social a:hover {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
         position: absolute;
-        right: 0;
+        right: 30px;
         top: 0;
+        margin-right: 30px;
+        padding-right: 20px;
     }
     .topnav.responsive a {
         float: none;
