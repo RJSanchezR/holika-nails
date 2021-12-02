@@ -325,10 +325,9 @@ main section img {
     padding-top: 0;
 }
 
-/* .gallery img{
-    width: 80%;
-    height: 80%;
-} */
+.gallery img{
+margin: 60px;
+}
 
 .row {
     display: flex;
@@ -477,16 +476,63 @@ footer .social a:hover {
 }
 
 @media screen and (max-width: 800px) {
-.column {
-    flex: 50%;
-    max-width: 50%;
+
+    #hero {
+        margin-top: 200px;
+    }
+
+    .home-title {
+        margin-bottom: 60px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .title {
+        margin-bottom: 20px;
+    }
+
+    .title, .over-title, .under-title {
+        text-align: center;
+    }
+
+    .column {
+        flex: 50%;
+        max-width: 50%;
     }
 }
 
 @media screen and (max-width: 600px) {
-.column {
-    flex: 100%;
-    max-width: 100%;
+
+    #hero {
+        margin-top: 150px;
+    }
+
+    .home-title {
+        margin-bottom: 60px;
+    }
+
+    main {
+        display: block;
+    }
+
+    .title {
+        margin-bottom: 0px;
+    }
+
+    .title, .over-title, .under-title {
+        text-align: center;
+    }
+
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .gallery img{
+        margin: 60px;
     }
 }
 
