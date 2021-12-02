@@ -546,12 +546,11 @@ footer .social a:hover {
         display: block;
         padding: 10px;
     }
-    .topnav a:not(:first-child) {
-        display: none;
-    }
+    .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
         float: right;
         display: block;
+        margin-right: 10px;
     }
 }
 
@@ -559,10 +558,8 @@ footer .social a:hover {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
         position: absolute;
-        right: 30px;
+        right: 0;
         top: 0;
-        margin-right: 30px;
-        padding-right: 20px;
     }
     .topnav.responsive a {
         float: none;
