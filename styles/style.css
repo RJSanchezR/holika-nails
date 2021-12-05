@@ -510,6 +510,12 @@ footer .social a:hover {
         margin-top: 150px;
     }
 
+    .button-box, .learn-more, .book {
+        display: block;
+        padding: 15px 15px;
+
+    }
+
     .home-title {
         margin-bottom: 60px;
     }
