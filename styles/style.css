@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #009789;
+    background-color: #008F81;
     display: grid;
     grid-template-columns: 150px auto;
     position: fixed;
@@ -154,7 +154,7 @@ h4 {
 }
 
 .book:hover, .learn-more:hover, .join:hover {
-    background: #009789;
+    background: #008F81;
     font-size: 20px;
 }
 
@@ -190,7 +190,7 @@ main section img {
 }
 
 #background {
-    background-color: #36A1D3;
+    background-color: #00B8A5;
     height: 725px;
     grid-column: 1/11;
     grid-row: 2/8;
@@ -254,18 +254,29 @@ main section img {
 
 .full-name {
     color: black;
+    margin: 30px;
+}
+
+.time-cost {
+    margin: 30px;
+    align-self: center;
+    justify-self: center;
 }
 
 .intro {
     grid-column: 1/3;
-    padding-left: 1em;
-    margin: 20px;
+    padding-left: .5em;
+    margin: 30px 20px 50px 20px;
+    font-weight: 1000;
+    font-size: 1.2em;
 }
 
 .intro-contact{
     grid-column: 1/8;
     padding-left: .5em;
-    margin: 50px 20px 50px 20px;
+    margin: 30px 20px 50px 20px;
+    font-weight: 1000;
+    font-size: 1.2em;
 }
 
 .technician {
@@ -273,6 +284,8 @@ main section img {
     grid-row: 2/5;
     box-shadow: 5px 5px 10px #6f7364;
     width: 100%;
+    align-self: center;
+    justify-self: center;
 }
 
 .map {
@@ -281,6 +294,8 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
     width: 100%;
     height: 80%;
+    align-self: center;
+    justify-self: center;
 }
 
 .contact a {
@@ -326,7 +341,9 @@ main section img {
 }
 
 .gallery img{
-margin: 60px;
+    margin: 70px;
+    align-self: center;
+    justify-self: center;
 }
 
 .row {
@@ -512,8 +529,11 @@ footer .social a:hover {
 
     .button-box, .learn-more, .book {
         display: block;
-        padding: 15px 15px;
-
+        padding: 10px;
+        margin: 10px;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
     }
 
     .home-title {
@@ -532,7 +552,7 @@ footer .social a:hover {
         text-align: center;
     }
 
-    .card-img, .stylist-name{
+    .card-img, .stylist-name, .time-cost {
         margin-top: 20px;
         margin-bottom: 20px;
     }
