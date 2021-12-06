@@ -83,6 +83,8 @@ h2, h3, h4 {
 
 h4 {
     color: white;
+    background: rgba(255, 204, 51, 0.3);
+    font-weight: bold;
 }
 
 #content {
@@ -132,7 +134,7 @@ h4 {
 }
 
 .home-subtitle {
-    color: white;
+    color: #E0A800;
     text-align: center;
     margin: 5%;
 }
@@ -163,6 +165,7 @@ h4 {
     color: white;
     font-family: 'Merriweather', serif;
     font-size: 4em;
+    margin-top: 2em;
     text-align: center;
     align-self: center;
     justify-self: center;
@@ -246,10 +249,6 @@ main section img {
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
-}
-
-.card-img, .mountain {
-    width: 100%;
 }
 
 .full-name {
